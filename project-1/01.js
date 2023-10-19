@@ -7,5 +7,4 @@ const options = {
     }
   };
   
-
   const moviesContainer = document.getElementById('movies-container');
