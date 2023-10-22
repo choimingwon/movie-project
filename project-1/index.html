@@ -1,36 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Moive Project</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header><h1>내배캠 최고 평점 영화 콜렉션</h1>
-    </header>
-    <div class="search">
-    <label style="font-size: 25px;">영화 검색 : </label>
-    <input type="text" id="search-input" placeholder="영화 검색">
-    <button type="submit" id="search-btn">검색</button>
-</div>
-    <div id="movies-container">
-        <div class="moviecard" id="01">
-            <img src="https://image.tmdb.org/t/p/w500/3bhkrj58Vtu7enYsRolD1fZdja1.jpg"  alt="The Godfather">
-            <h3 class="movie-title">The Godfather</h3>
-            <p>Spanning the years 1945 to 1955, a chronicle of the fictional Italian-American Corleone crime family. When organized crime family patriarch, Vito Corleone barely survives an attempt on his life, his youngest son, Michael steps in to take care of the would-be killers, launching a campaign of bloody revenge.</p>
-            <p>Rating: 8.7</p>
+    <head>
+        <title>Movie Project</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="search-container">
+            <input id="searchInput" type="text" placeholder="영화 검색...">
+            <button id="searchButton">검색</button>
         </div>
-        <div class="moviecard" id="02">
-            <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/lyQBXzOQSuE59IsHyhrp0qIiPAz.jpg" alt="The Shawshank Redemption">
-            <h3 class="movie-title">The Shawshank Redemption</h3>
-            <p>Framed in the 1940s for the double murder of his wife and her lover, upstanding banker Andy Dufresne begins a new life at the Shawshank prison, where he puts his accounting skills to work for an amoral warden. During his long stretch in prison, Dufresne comes to be admired by the other inmates -- including an older prisoner named Red -- for his integrity and unquenchable sense of hope.</p>
-            <p>Rating: 8.7</p>
+        <div class="movie-list" id="movieList">
         </div>
-    </div>
 
-
-</body>
-
-
-</html>
+        <script src="script.js"></script>
+    </body>
+    </html>
+    
+    
