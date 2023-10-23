@@ -24,6 +24,9 @@ const renderMovies = (movies) => {
 
     movies.forEach((movie) => {
         const li = document.createElement('div');
+        li.addEventListener('click', ()=>{ // 이미지 클릭 시 해당 영화 ID 얼럿 노출
+            alert(movie.id);
+        })
         li.style.border = '1px solid #000';
         li.innerHTML = `
             <h2>${movie.title}</h2>
