@@ -26,7 +26,7 @@ const renderMovies = (movies) => {
 
   movies.forEach((movie) => {
     const li = document.createElement("div");
-    // 이미지 클릭 시 해당 영화 ID 얼럿 노출
+    // 이미지 클릭 시 해당 영화 ID 노출
     li.addEventListener("click", () => {
       alert(movie.id);
     });

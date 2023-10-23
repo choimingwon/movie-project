@@ -1,6 +1,7 @@
 body {
   font-family: Arial, sans-serif;
   background-color: #fafad2;
+  text-align: center;
 }
 
 .search-container {
@@ -20,7 +21,7 @@ body {
 .movie-list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
+  gap: 100px;
   justify-items: center;
 }
 
@@ -28,7 +29,6 @@ body {
   border: 1px solid #ccc;
   border-radius: 5px;
   padding: 10px;
-  text-align: center;
 }
 
 .movie-card img {
