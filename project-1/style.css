@@ -1,37 +1,37 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #FAFAD2;
+  font-family: Arial, sans-serif;
+  background-color: #fafad2;
 }
 
 .search-container {
-    text-align: center;
-    margin: 20px 0;
+  text-align: center;
+  margin: 20px 0;
 }
 
 #searchInput {
-    padding: 10px;
-    width: 80%;
+  padding: 10px;
+  width: 80%;
 }
 
 #searchButton {
-    padding: 10px 20px;
+  padding: 10px 20px;
 }
 
 .movie-list {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-    justify-items: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  justify-items: center;
 }
 
 .movie-card {
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 10px;
-    text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
 }
 
 .movie-card img {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
