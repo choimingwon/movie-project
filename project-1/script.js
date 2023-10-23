@@ -24,8 +24,10 @@ const renderMovies = (movies) => {
 
     movies.forEach((movie) => {
         const li = document.createElement('div');
-        li.addEventListener('click', ()=>{ // 이미지 클릭 시 해당 영화 ID 얼럿 노출
+        // 이미지 클릭 시 해당 영화 ID 얼럿 노출
+        li.addEventListener('click', ()=>{ 
             alert(movie.id);
+        // 이미지 틀
         })
         li.style.border = '1px solid #000';
         li.innerHTML = `
