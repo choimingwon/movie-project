@@ -25,7 +25,8 @@ body {
   justify-items: center;
 }
 
-.movie-card {
+
+/* .movie-card {
   border: 1px solid #ccc;
   border-radius: 5px;
   padding: 10px;
@@ -34,4 +35,4 @@ body {
 .movie-card img {
   max-width: 100%;
   height: auto;
-}
+}  class name? class list?를 사용해서 이미지에 border-radius 적용시켜보기.. */
